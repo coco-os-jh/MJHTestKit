@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MJHTestKit_Example' do
+  pod 'MJHTestKit', :path => '../'
+
+  target 'MJHTestKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
