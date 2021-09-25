@@ -1,0 +1,6 @@
+framework module MJHTestKit {
+  umbrella header "MJHTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

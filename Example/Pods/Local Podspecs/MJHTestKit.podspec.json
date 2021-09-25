@@ -1,0 +1,22 @@
+{
+  "name": "MJHTestKit",
+  "version": "0.1.0",
+  "summary": "A short description of MJHTestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/905004880@qq.com/MJHTestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "905004880@qq.com": "905004880@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/905004880@qq.com/MJHTestKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MJHTestKit/Classes/**/*"
+}

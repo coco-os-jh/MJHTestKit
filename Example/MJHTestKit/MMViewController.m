@@ -7,6 +7,7 @@
 //
 
 #import "MMViewController.h"
+#import <MMTestClass.h>
 
 @interface MMViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    MMTestClass *c = [MMTestClass new];
+    [c testLog];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

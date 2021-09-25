@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/905004880@qq.com/MJHTestKit'
+  s.homepage         = 'https://github.com/coco-os-jh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '905004880@qq.com' => '905004880@qq.com' }
-  s.source           = { :git => 'https://github.com/905004880@qq.com/MJHTestKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/coco-os-jh/MJHTestKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
