@@ -11,7 +11,7 @@
 
 
 -(void)testLog{
-    NSLog(@"蒙建华 -- test ");
+    NSLog(@"class -- test ");
 }
 
 @end

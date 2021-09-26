@@ -10,7 +10,7 @@ PODS:
     - libwebp/demux
   - libwebp/webp (1.2.0)
   - Masonry (1.1.0)
-  - MJHTestKit (0.1.0):
+  - MJHTestKit (0.1.1):
     - Masonry
     - SDWebImage/GIF
     - SDWebImage/WebP
@@ -43,7 +43,7 @@ SPEC CHECKSUMS:
   FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
   libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJHTestKit: 9af6faa0ab12326ca82b258188c323f4b80634b0
+  MJHTestKit: 4545c0e90a61ce432f72a58546c044af7e267815
   SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
