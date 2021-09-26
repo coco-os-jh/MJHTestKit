@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of MJHTestKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/905004880@qq.com/MJHTestKit",
+  "homepage": "https://github.com/coco-os-jh",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,25 @@
     "905004880@qq.com": "905004880@qq.com"
   },
   "source": {
-    "git": "https://github.com/905004880@qq.com/MJHTestKit.git",
+    "git": "https://github.com/coco-os-jh/MJHTestKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MJHTestKit/Classes/**/*"
+  "source_files": "MJHTestKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "SDWebImage/WebP": [
+
+    ],
+    "SDWebImage/GIF": [
+
+    ]
+  }
 }

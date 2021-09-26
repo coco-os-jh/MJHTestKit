@@ -1,15 +1,51 @@
 PODS:
-  - MJHTestKit (0.1.0)
+  - FLAnimatedImage (1.0.16)
+  - libwebp (1.2.0):
+    - libwebp/demux (= 1.2.0)
+    - libwebp/mux (= 1.2.0)
+    - libwebp/webp (= 1.2.0)
+  - libwebp/demux (1.2.0):
+    - libwebp/webp
+  - libwebp/mux (1.2.0):
+    - libwebp/demux
+  - libwebp/webp (1.2.0)
+  - Masonry (1.1.0)
+  - MJHTestKit (0.1.0):
+    - Masonry
+    - SDWebImage/GIF
+    - SDWebImage/WebP
+    - SVProgressHUD
+  - SDWebImage/Core (4.4.8)
+  - SDWebImage/GIF (4.4.8):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SDWebImage/WebP (4.4.8):
+    - libwebp (< 2.0, >= 0.5)
+    - SDWebImage/Core
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - MJHTestKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FLAnimatedImage
+    - libwebp
+    - Masonry
+    - SDWebImage
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   MJHTestKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MJHTestKit: 9e6a05104b0f48908b65b5647712ea330761e366
+  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
+  libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJHTestKit: 9af6faa0ab12326ca82b258188c323f4b80634b0
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: f9f85722fde2fa7724e780851316ef453e1e1295
 
